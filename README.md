@@ -11,7 +11,7 @@ We provide two similar algorithms for choosing points for evaluation:
 These, represents a heuristic synthesis of several recent ideas from the literature
 in lieu of well developed, easy to use software implementations.
 For a short review of Bayesian Optimization, references and algorithms description
-see our [technical report](http://arxiv...).
+see our (NOT YET PUBLISHED...) [technical report](http://arxiv...).
 
 We tried to design the code to be modular and hackable, so that individual parts
 could be easily modified/replaced with (hopefully) no or little impact on other
@@ -19,7 +19,7 @@ parts.
 
 ## Credits
 
-Some of the ideas and code were taken from the [Spearmint-lite](https://github.com/JasperSnoek/spearmint/).
+Some of the ideas and code were taken from the [Spearmint-lite](https://github.com/JasperSnoek/spearmint/)
 and [George](https://github.com/dfm/george) projects.
 
 ## Algorithms' Features
@@ -39,11 +39,11 @@ around estimated local minima (Poll steps).
     the optimal parameter value at these location (this is how the range is
     usually chosen) the algorithms discard inferred points if they hit the
     parameters' boundary.
-    
+
 ## Documentation
 
 The miniBOP_2D notebook contains a simple working example.
-At this point, further documentation can be found in our [technical report](http://arxiv...)
+At this point, further documentation can be found in our (NOT YET PUBLISHED...) [technical report](http://arxiv...)
 and inside the source code.
 
 ## Dependencies:

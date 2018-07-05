@@ -11,9 +11,9 @@ We provide two similar algorithms for choosing points for evaluation:
 These, represents a heuristic synthesis of several recent ideas from the literature
 in lieu of well developed, easy to use software implementations.
 For a short review of Bayesian Optimization, references and algorithms description
-see our (NOT YET PUBLISHED...) [technical report](http://arxiv...).
+see my [technical report](https://arxiv.org/abs/1807.00373).
 
-We tried to design the code to be modular and hackable, so that individual parts
+I tried to design the code to be modular and hackable, so that individual parts
 could be easily modified/replaced with (hopefully) no or little impact on other
 parts.
 
@@ -43,7 +43,7 @@ around estimated local minima (Poll steps).
 ## Documentation
 
 The miniBOP_2D notebook contains a simple working example.
-At this point, further documentation can be found in our (NOT YET PUBLISHED...) [technical report](http://arxiv...)
+At this point, further documentation can be found in my [technical report](https://arxiv.org/abs/1807.00373)
 and inside the source code.
 
 ## Dependencies:
